@@ -57,10 +57,10 @@ public class Main {
     public static void main(String[] args) {
         // Создание списка людей
         List<Human> humans = new ArrayList<>();
-        humans.add(new Human(25, "John", "Doe", LocalDate.of(1990, 5, 15), 70));
-        humans.add(new Human(18, "Alice", "Smith", LocalDate.of(2005, 8, 20), 55));
-        humans.add(new Human(30, "Bob", "Johnson", LocalDate.of(1992, 12, 10), 80));
-        humans.add(new Human(22, "Eva", "Brown", LocalDate.of(2000, 3, 25), 60));
+        humans.add(new Human(25, "Nik", "Shkabara", LocalDate.of(2005, 3, 5), 70));
+        humans.add(new Human(18, "Alice", "legenda228", LocalDate.of(2005, 8, 20), 55));
+        humans.add(new Human(30, "Genry", "Hananyev", LocalDate.of(1992, 12, 10), 125));
+        humans.add(new Human(22, "Nikita", "Petrovich", LocalDate.of(2000, 3, 25), 60));
 
         // Вывод списка до сортировки
         System.out.println("Список до сортировки:");

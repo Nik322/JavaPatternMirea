@@ -4,10 +4,8 @@ import java.util.function.Consumer;
 
 public class Main {
     public static void main(String[] args) {
-        // Пример строки для обработки
-        String inputString = "examplestring";
+        String inputString = "yalublycocacoly";
 
-        // Создание экземпляра класса, реализующего интерфейс Consumer
         Consumer<String> replaceEveryThirdChar = str -> {
             StringBuilder result = new StringBuilder();
             for (int i = 0; i < str.length(); i++) {
@@ -20,7 +18,6 @@ public class Main {
             System.out.println(result.toString());
         };
 
-        // Применение созданного Consumer к входной строке
         replaceEveryThirdChar.accept(inputString);
     }
 }
